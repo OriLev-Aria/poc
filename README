@@ -1,0 +1,11 @@
+use contracts from testing-contracts folder to test the system
+use postman in the format of postman.png
+
+
+## Running
+nmp install
+node index.js
+
+### running tests menually
+npx hardhat test ./test/Lock.js
+npx hardhat test ./test/GreeterTest.js
